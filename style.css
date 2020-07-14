@@ -1,0 +1,73 @@
+body {
+    background-color:#2F4F4F	;
+    color:#00FFFF;
+  }
+  
+  h1 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+  
+    text-align: center;
+    line-height: 59px;
+    margin: 0;
+  }
+  
+  .stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 50px;
+    width: 100%;
+    padding-top: 50px;
+  }
+  
+  .box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 50px;
+    width: 250px;
+  
+    border: 5px solid;
+    border-radius: 250px;
+    border-color: #00FFFF;
+    
+  }
+  
+  .time {
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+  }
+  
+  .gold {
+    font-weight: 900;
+  
+    color:#4B0082;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+  
+    width: 187px;
+  }
+  
+  button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+  }
+  
+  #playButton {
+    display: block;
+  }
+  
+  #pauseButton {
+    display: none;
+  }
